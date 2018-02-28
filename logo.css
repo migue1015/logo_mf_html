@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    height: 100%;
+    max-height: 100%;
+}
+.flex-container {
+    display: flex;
+    height: 100%;
+}
+.container {
+    margin: auto;
+    position: relative;
+}
+.base_logo {
+    width: 500px;
+    height: 300px;
+}
+.base_logo_symbol {
+    display: inline-block;
+    width:25%;
+
+}
+.base_logo_name {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    height: 250px;
+    color: dimgrey;
+    font-size: 7em;
+}
+.squares {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.colo_1 {
+    background: rgb(255, 72, 0);
+}
+.colo_2 {
+    background: rgb(93, 173, 40);
+}
+.colo_3 {
+    background: rgb(17, 167, 194);
+}
+.colo_4 {
+    background: orange;
+}
